@@ -1,0 +1,85 @@
+*{
+    --header-bg:  #484848;
+    --top-product-bg: #f6f0e8;
+    --trusted-brands-bg: #f1f0ef80;
+}
+
+.hero_heading {
+    font-size: 2.5rem;
+    color: #73390a;
+    line-height: 3rem;
+}
+
+.hero_subheading{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.top_products{
+    background-color: var(--top-product-bg);
+}
+
+.top_products h4, .trusted_brands h4 {
+    font-size: 1.3rem;
+}
+
+.product_details {
+    font-size: 0.9rem;
+    letter-spacing: 0.05px;
+}
+
+.trusted_brands, .subscribe_section{
+    background-color: var(--trusted-brands-bg);
+}
+
+.trusted_brand_images img{
+    width: 80px;
+}
+
+.trusted_brands p {
+    font-size: 1rem;
+}
+
+.service_contents h4 {
+    font-size: 1.3rem;
+    font-weight: 600; 
+    color: #4d4d4d;
+}
+
+
+.service_contents p{
+    font-size: 17px;
+    color: #4d4d4d;
+    line-height: 25px;   
+}
+
+.service_contents li {
+    list-style: disc;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+
+.subscribe_section{
+    background-color: var(--trusted-brands-bg);
+}
+
+.upload_prescription_note h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.upload_prescription_note p {
+    font-size: 1.05rem;
+    line-height: 28px;
+}
+
+footer{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+footer h6 {
+    font-size: 14px;
+}

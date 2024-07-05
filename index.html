@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy homepage with bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+    <header class="py-1 bg-dark sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
+                <a class="navbar-brand text-primary font-weight-bold logo-font-size" href="#">IsyBPx</a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler btn-sm text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon btn-sm"></span>
+                </button>
+
+                <div class="collapse navbar-collapse ml-3 justify-content-between" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link text-white font-weight-bold" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white font-weight-bold" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white font-weight-bold" href="#">Services</a>
+                        </li>    
+                    </ul>
+
+                    <form class="form-inline" action="/action_page.php">
+                        <div class="input-group my-2 input-group-sm">
+                            <input class="form-control font-weight-bold" type="text" placeholder="Search | Products">
+                            <div class="input-group-append">
+                                <button class="btn btn-success font-weight-bold" type="submit">Search</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item my-2 mr-2">
+                            <a href="#" class="btn btn-primary btn-sm font-weight-bold">Shop</a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm font-weight-bold">Chat the pharmacist</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero_section">
+            <div class="container my-4 py-4">
+                <div class="row">
+                    <div class="col-md">
+                        <h1 class="font-weight-bold font-italic hero_heading">Providing Quality Healthcare and Medicine to achieve a Healthier Community</h1>
+                        <p class="lead mt-2 text-secondary hero_subheading">Community Pharmacy centered on providing quality pharmaceutical services and trusted medicines 24/7</p>
+                    </div>
+
+                    <div class="col-md">
+                        <img class="rounded-circle w-100 h-100" src="images/pharmacist_in_store.jpg" alt="Pharmacist"> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature_section">
+            <div class="mb-0 pb-0 top_products">
+                <div class="container my-4 py-4">
+                    <h4 class="text-center text-dark font-weight-bold text-uppercase my-3">Top Products</h4>
+                    <div class="d-flex justify-content-between flex-wrap mt-4">
+                        <div class="mb-4 mx-auto text-center product_content">
+                            <div class="product_image">
+                                <img class="w-100" src="images/perfectil--30-caps.jpg" alt="" class="product_image">
+                            </div>
+                            <div class="d-flex justify-content-between mt-1 mb-0 product_details">
+                                <p class="font-weight-bold font-italic text-uppercase text-muted product_name">Perfectil capsules</p>
+                                <p class="text-primary font-weight-bold product_price">#50000</p>
+                            </div>
+                            <button type="button" class="btn btn-primary mt-0">Buy Now</button>
+                        </div>
+
+                        <div class="mb-4 mx-auto text-center product_content">
+                            <div class="product_image">
+                                <img class="w-100" src="images/perfectil--30-caps.jpg" alt="" class="product_image">
+                            </div>
+                            <div class="d-flex justify-content-between mt-1 mb-0 product_details">
+                                <p class="font-weight-bold font-italic text-uppercase text-muted">Perfectil capsules</p>
+                                <p class="text-primary font-weight-bold product_price">#50000</p>
+                            </div>
+                            <button type="button" class="btn btn-primary mt-0">Buy Now</button>
+                        </div>
+
+                        <div class="mb-4 mx-auto text-center product_content">
+                            <div class="product_image">
+                                <img class="w-100" src="images/perfectil--30-caps.jpg" alt="" class="product_image">
+                            </div>
+                            <div class="d-flex justify-content-between mt-1 mb-0 product_details">
+                                <p class="font-weight-bold font-italic text-uppercase text-muted">Perfectil capsules</p>
+                                <p class="text-primary font-weight-bold product_price">#50000</p>
+                            </div>
+                            <button type="button" class="btn btn-primary mt-0">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-n4 trusted_brands">
+                <div class="container my-4 py-4 text-center">
+                    <h4 class="text-dark font-weight-bold my-3">DRUGS FROM TRUSTED BRANDS</h4>
+
+                    <div class="d-flex flex-wrap justify-content-around my-5 trusted_brand_images">
+                        <img src="images/sanofi.svg" alt="sanofi">
+                        <img src="images/merck.svg" alt="merck">
+                        <img src="images/emzor.svg" alt="Emzor">
+                        <img src="images/gsk.svg" alt="Gsk">
+                        <img src="images/pifezr.svg" alt="Pfizer">
+                    </div>
+                    <p class="my-3">And over 30 different Brands to deliever Quality drugs to the last</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="service_section">
+            <div class="container my-4 py-4 service_container">
+
+                <!--
+                <div class="media">
+                    <img src="images/service_image.png" alt="pharmacist serving" class="align-self-center mr-3" style="width:300px">
+                    <div class="media-body">
+                      <h4>Exceptional Services & Drug Dispensing</h4>
+                      <p>IsyBPx is a hassle-free platform to source all the medications, consumables, and small medical devices needed for your healthy living.</p>
+
+                        <ul class="mt-2">
+                            <li class="pb-2">24/7 Service Delivery</li>
+                            <li class="pb-2">Medical Consumables</li>
+                            <li class="pb-2">Small Medical Devices</li>
+                            <li class="pb-2">Rare Medication</li>
+                            <li class="pb-2">Dedicated Customer Support</li>
+                            <li class="pb-2">Quality Drug supply</li>
+                            <li class="pb-2">PCN Certified</li>
+                            <li class="pb-2">Point of Sale</li>
+                            <li>Royalty Credit</li>
+                        </ul>
+                    </div>
+                
+                </div>
+                -->
+                
+                <div class="row">
+                    <div class="col-sm-6 d-flex justify-content-center service_image">
+                        <img class="" src="images/service_image.png" alt="pharmacist serving" class="align-self-center mr-3" style="width:300px">
+                    </div>
+
+                    <div class="col-sm d-flex flex-column justify-content-center mt-3 service_contents">
+                        <h4 class="text-dark font-weight-bold text-uppercase text-center">Exceptional Services & Drug Dispensing</h4>
+                        <p class="my-1 text-justify">IsyBPx is a hassle-free platform to source all the medications, consumables, and small medical devices needed for your healthy living.</p>
+                        <ul class="mt-2">
+                            <li class="pb-2">24/7 Service Delivery</li>
+                            <li class="pb-2">Medical Consumables</li>
+                            <li class="pb-2">Small Medical Devices</li>
+                            <li class="pb-2">Rare Medication</li>
+                            <li class="pb-2">Dedicated Customer Support</li>
+                            <li class="pb-2">Quality Drug supply</li>
+                            <li class="pb-2">PCN Certified</li>
+                            <li class="pb-2">Point of Sale</li>
+                            <li>Royalty Credit</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="subscribe_section">
+            <div class="container my-4 py-4 subscribe_container">
+                <div class="row d-flex justify-content-around align-items-center">
+                    <div class="col-md-5 upload_prescription_note">
+                        <h3 class="mb-3 text-justify text-dark">upload <span class="text-primary font-weight-bold">Prescription</span></h3>
+                        <p class="text-justify mb-1">You can upload your prescription here and we will deliver your medicine to your doorstep.</p>
+                        <p class="text-justify">Click on upload prescription, input your email and address and then send.</p>
+                    </div>
+                
+                    <div class="col-md-6">
+                        <form action="#">
+                            <!--
+                            <div class="form-group">
+                                <button class="btn border text-dark" onclick="document.getElementById('getFile').click()">Click here to upload prescription</button>
+                                <input type='file' class="form-control-file" name="presriptionImage" id="getFile" style="display:none" accept="image/*" required>
+                            </div>
+                            -->
+
+                            <div class="custom-file mb-3">
+                                <input type="file" class="custom-file-input" id="customFile" name="filename">
+                                <label class="custom-file-label" for="customFile">Click here to upload prescription</label>
+                            </div>
+
+                            <div class="form-group">
+                              <input type="email" class="form-control" placeholder="Enter Email" name="email" id="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter Address" name="address" id="address" required>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send prescription</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white mt-n4">
+        <div class="container my-4 py-4">
+            <div class="row footer_up">
+                <div class="col-sm-3 col-md-4 mb-4">
+                    <h6 class="text-uppercase">Contact Us</h6>
+                    <address class="mb-2"><small>Head office: 45, Saka Tinubu Street, Victoria Island, Lagos</small></address>
+                    <p class="my-1"><small>Phone number: +234 816 419 4190</small></p>
+                    <p class="mt-1"><a class="footer_email" href=""><small class="text-white">anyemail@gmail.com</small></a></p>
+                </div>
+                <div class=" col-6 col-sm-3 col-md-3 footer_service">
+                    <h6>CUSTOMER SERVICES</h6>
+                    <p class="mb-1"><a href="#"><small class="text-white">FAQ</small></a></p>
+                    <p class="my-1"><a href="#"><small class="text-white">Direction to store</small></a></p>
+                    <p class="mt-1"><a href="#"><small class="text-white">Get in touch</small></a></p>
+                </div>
+                <div class="col-6 col-sm-3 footer_about">
+                    <h6>ABOUT US</h6>
+                    <p class="mb-1"><a href="#"><small class="text-white">Company Info</small></a></p>
+                    <p class="mt-1"><a href="#"><small class="text-white">Pharmacy Services</small></a></p>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h6>Engage with us</h6>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#" class="text-white mr-2"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#" class="text-white mr-2"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="text-white mr-2"><i class="fa fa-twitter-square"></i></a>
+                        <a href="#" class="text-white mr-2"><i class="fa fa-linkedin-square"></i></a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class=" d-flex justify-content-end footer_middle_right">
+                            <p class="mr-2 pr-2 border-right"><a href="#"><small class="text-white">Terms & Condition</small></a></p>
+                            <p class="mr-2 pr-2 border-right"><a href="#"><small class="text-white">Privacy Policy</small></a></p>
+                            <p class="mr-2"><a href="#"><small class="text-white">Site Map</small></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border border-white my-0">
+
+            <div class="d-flex justify-content-between mt-1 footer_down">
+                <p><small>&copy 2024 IsyB. All right reserved</small></p>
+                <p>Powered by <b>Isioma</b></p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add the following code if you want the name of the file appear on select
+        $(".custom-file-input").on("change", function() {
+          var fileName = $(this).val().split("\\").pop();
+          $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
+</body>
+</html>
